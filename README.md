@@ -7,6 +7,12 @@
 
 ## 1. Linux installieren
 
+Falls noch nicht geschehen, installiere eine Linux-Distribution (z. B. Debian 12) auf der VM oder dem Server.
+
+Download: [Debian 12](https://www.debian.org/distrib/netinst)
+
+Wählt dort die Minimal-Installation (i386) aus, um eine Basisinstallation ohne GUI zu erhalten.
+
 ![Debian installation](debian.gif)
 
 ## 2. SSH-Server einrichten
@@ -20,18 +26,6 @@
      - **System aktualisieren:**
         ```bash
         sudo apt update && sudo apt upgrade -y
-        ```
-     - **Optional: Neuen Benutzer anlegen:**
-        ```bash
-        sudo adduser BENUTZERNAME
-        sudo usermod -aG sudo BENUTZERNAME
-        su - BENUTZERNAME
-        ```
-     - **SSH-Server installieren (falls nicht vorhanden):**
-        ```bash
-        sudo apt install openssh-server -y
-        sudo systemctl enable ssh   # Server aktivieren
-        sudo systemctl start ssh    # Server starten
         ```
      - **IP-Adresse des Servers ermitteln:**
         ```bash
