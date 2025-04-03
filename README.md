@@ -104,3 +104,9 @@ Nach erfolgreicher Verbindung stehen ein SSH-Terminal und ein Datei-Explorer zur
 ---
 
 **Glückwunsch!** Der SSH-Server ist erfolgreich eingebunden und einsatzbereit.
+
+---
+
+### Credits
+- [DulliLabs](https://github.com/DulliLabs) : Text und Idee
+- [20Max01](https://github.com/20Max01) : Installations-GIF
